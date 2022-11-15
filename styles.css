@@ -1,0 +1,104 @@
+@charset "UTF-8";
+html{
+	font-size:20px;
+}
+body {
+	font: 0.625em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: hsla(21, 0%, 35%, 1);
+}
+h1,h2 {
+	font-weight: bold;
+	color: hsla(196, 30%, 57%, 1);
+	margin: 0;
+	text-align: center;
+}
+h1{
+	font-size: 6em;
+}
+h2{
+	font-size: 2em;
+	white-space: nowrap;
+}
+li{
+	font-size: 1.4em;
+	color: hsla(196, 30%, 57%, 1);
+}
+li:nth-child(even){
+	color: 	hsla(154, 39%, 53%, 1);
+}
+.container{
+	top:0;
+	width:70%;
+	margin: 0 auto;
+}
+.description{
+	width:100%;
+	box-sizing: border-box;
+	padding: 5em 1em 0 1em;
+}
+.panel{
+	width: 35%;
+	float: left;
+	box-sizing: border-box;
+}
+aside{
+	width: 30%;
+	float: left;
+	height: auto;
+	box-sizing:border-box;
+	padding: 4em 0.5em 0 0.5em;
+	vertical-align: middle;
+}
+.card-count, aside p{
+	text-align: center;
+	font-weight: bold;
+	color: 	hsla(154, 39%, 53%, 1);
+}
+img {
+	box-shadow: 2px 10px 25px #888888;
+	clear: both;
+	height: 13em;
+	width: 9em;
+	border-radius: 5px;
+	display: inherit;
+	margin: 1em auto;
+}
+.row-centered {
+	text-align: center;
+	width: 100%;
+}
+.btn {
+	margin: 2em auto;
+	margin-top: 5px;
+	background-color:#599bb3;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:1.2em;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-weight: bold;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+@media screen and (min-width: 0) and (max-width: 820px){
+	html{
+	font-size: 16px;
+	}
+	.container{
+		width:100%;
+		box-shadow: none;
+		margin: 0;
+	}
+}
